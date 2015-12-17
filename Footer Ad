@@ -11,9 +11,9 @@ var _$pt = _$pt || [];//presented type
 	if (_$rh[tagType]==null){
 		_$rh[tagType]=[];
 	}
-	_$rh[tagType].push({type: 'footer',cid: '87395_141857_2',size: '728x90',domain: 'eclkmpbn.com',geo: 'US',ap: 'cmp=FOOTER&evp=9AdY-kTTcNjMQ2jvrqCLl4BVNmK1S2tVMv6QYXGZ0M5slWMKZCiRewVphRQnLACL'});
+	_$rh[tagType].push({type: 'footer',cid: '87395_141857_7',size: '468x60',domain: 'eclkmpbn.com',geo: 'US',ap: 'cmp=FOOTER&evp=9AdY-kTTcNjMQ2jvrqCLl4BVNmK1S2tVMv6QYXGZ0M5dwPAmwH7SUfqUdkEiF7Fe'});
 
-	_$rh.p = "Asr1946Ww403";
+	_$rh.p = "Geb8116Vx37";
 	if (window[_$rh.p] == null) {window[_$rh.p]=function(e){};};
     _$rh.bp = function(e){(window[_$rh.p])(e);};
     
@@ -42,7 +42,7 @@ var _$pt = _$pt || [];//presented type
     document.addEventListener ? document.addEventListener(trigger, _$rh.bp, useCapture) : document.attachEvent("on"+trigger, _$rh.bp);
 
 	var g = document.createElement("script");
-	g.setAttribute("id","rh_tag_"+tagType+"_87395_141857_2_wrapper");
+	g.setAttribute("id","rh_tag_"+tagType+"_87395_141857_7_wrapper");
 	g.type= "text/javascript";
     g.src= "http://cdn1.ftr.revdepo.com/banners/footer/footer-tag_1.0.33.js";
 
@@ -51,7 +51,7 @@ var _$pt = _$pt || [];//presented type
 	var found=false;
 	for(var i=(scripts.length - 1);i>=0;i--){
 		myScript = scripts[i];
-		if (myScript.src.indexOf("tid=87395_141857_2")!=-1) {
+		if (myScript.src.indexOf("tid=87395_141857_7")!=-1) {
 			found=true;
 			break;
 		}
@@ -93,9 +93,9 @@ var _$pt = _$pt || [];//presented type
 	if (_$rh[tagType]==null){
 		_$rh[tagType]=[];
 	}
-	_$rh[tagType].push({cid:'87395_141857_2',prefix:'imgBanner20151211/20151213_015526540_',pid:'',redirurl:'',geo:'US',size: '728x90',type: 'footer',ap: 'cmp=FOOTER&evp=9AdY-kTTcNjMQ2jvrqCLl4BVNmK1S2tVMv6QYXGZ0M5slWMKZCiRewy0JFGrOyba'});
+	_$rh[tagType].push({cid:'87395_141857_7',prefix:'imgBanner20151211/20151217_015610830_',pid:'',redirurl:'',geo:'US',size: '468x60',type: 'footer',ap: 'cmp=FOOTER&evp=9AdY-kTTcNjMQ2jvrqCLl4BVNmK1S2tVMv6QYXGZ0M5dwPAmwH7SUc2_MasTyOH-'});
 
-	_$rh.p = "Asr1946Ww403";
+	_$rh.p = "Geb8116Vx37";
 	if (window[_$rh.p] == null) {window[_$rh.p]=function(e){};};
     _$rh.bp = function(e){(window[_$rh.p])(e);};
     
@@ -124,7 +124,7 @@ var _$pt = _$pt || [];//presented type
     document.addEventListener ? document.addEventListener(trigger, _$rh.bp, useCapture) : document.attachEvent("on"+trigger, _$rh.bp);
 
 	var g = document.createElement("script");
-	g.setAttribute("id","rh_tag_"+tagType+"_87395_141857_2");
+	g.setAttribute("id","rh_tag_"+tagType+"_87395_141857_7");
 	g.type= "text/javascript";
     g.src= "http://cdn1.tags2.revdepo.com/banners/script/bnr-tag_1.0.9.js";
 
@@ -133,7 +133,7 @@ var _$pt = _$pt || [];//presented type
 	var found=false;
 	for(var i=(scripts.length - 1);i>=0;i--){
 		myScript = scripts[i];
-		if (myScript.src.indexOf("tid=87395_141857_2")!=-1) {
+		if (myScript.src.indexOf("tid=87395_141857_7")!=-1) {
 			found=true;
 			break;
 		}
@@ -162,3 +162,47 @@ var _$pt = _$pt || [];//presented type
 	
 })();
 		
+var _$cmp = _$cmp || {};
+var _$pt = _$pt || [];//presented type
+
+(function() {
+	var tagType="BOUNCE";
+	if(_$pt[tagType])return;
+	_$pt[tagType]=true;
+	var companionId = "87395_141857_1";
+	if (!_$cmp[companionId]) {
+		_$cmp[companionId] = true;
+
+		var g = document.createElement("script");
+		g.type = "text/javascript";
+		g.src = "//eclkmpbn.com/adServe/banners?tid=87395_141857_1&pause=5";
+
+		var scripts = document.getElementsByTagName("script");
+		var myScript;
+		var found = false;
+		for (var i = (scripts.length - 1); i >= 0; i--) {
+			myScript = scripts[i];
+			if (myScript.src.indexOf("tid=87395_141857_7") != -1) {
+				found = true;
+				break;
+			}
+		}
+		if (!found) {
+			myScript = scripts[scripts.length - 1];
+		}
+
+		if (myScript.parentNode != document.getElementsByTagName("head")[0]) {
+			myScript.parentNode.insertBefore(g, myScript.nextSibling);
+		} else {
+			var bodyOnLoad = function() {
+				document.getElementsByTagName('body')[0].appendChild(g);
+			};
+
+			if (window.addEventListener) {
+				window.addEventListener("load", bodyOnLoad, false);
+			} else if (window.attachEvent) {
+				window.attachEvent("onload", bodyOnLoad);
+			}
+		}
+	}
+})();
